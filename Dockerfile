@@ -8,7 +8,7 @@ ENV PATH=$PATH:node_modules/.bin
 # Install global packages
 RUN npm install -g \
 	yarn \
-  vue-cli \
+  @vue/cli \
   quasar-cli \
   firebase-tools
 
